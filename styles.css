@@ -11,21 +11,24 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #fdfaf6;
 }
 
 #circle {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
-    background: slateblue;
-    border-radius: 100px;
+    height: 180px;
+    width: 180px;
+    background: #7a8fa6;
+    border-radius: 90px;
     color: white;
     cursor: pointer;
     transition: cubic-bezier(0.075, 0.882, 0.165, 1) 3s;
 }
 
-.hover {
-    transform: scale(2);
+#circle:hover {
+    transform: scale(1.4);
+    background-color: #e07a5f;
+    box-shadow: 0 0 20px rgba(224, 122, 95, 0.5);
 }
